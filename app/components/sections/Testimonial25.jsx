@@ -16,11 +16,11 @@ export function Testimonial25() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="flex w-full flex-col items-start justify-between border-2 border-yellow-400 p-6 md:p-8 bg-gray-900">
             <div className="mb-5 flex md:mb-6">
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
             </div>
             <blockquote className="md:text-md" style={{color: 'white'}}>
               We installed their system in an afternoon and slept better that
@@ -36,17 +36,17 @@ export function Testimonial25() {
               </div>
               <div>
                 <p className="font-semibold" style={{color: 'white'}}>Marcus Chen</p>
-                <p style={{color: '#FFCC33'}}>Owner, retail store</p>
+                <p style={{color: '#facc31'}}>Owner, retail store</p>
               </div>
             </div>
           </div>
           <div className="flex w-full flex-col items-start justify-between border-2 border-yellow-400 p-6 md:p-8 bg-gray-900">
             <div className="mb-5 flex md:mb-6">
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
-              <BiSolidStar className="size-6" style={{color: '#FFCC33'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
+              <BiSolidStar className="size-6" style={{color: '#facc31'}} />
             </div>
             <blockquote className="md:text-md" style={{color: 'white'}}>
               The alerts caught a break-in attempt before it happened. That's
@@ -62,7 +62,7 @@ export function Testimonial25() {
               </div>
               <div>
                 <p className="font-semibold" style={{color: 'white'}}>Sarah Williams</p>
-                <p style={{color: '#FFCC33'}}>Manager, warehouse</p>
+                <p style={{color: '#facc31'}}>Manager, warehouse</p>
               </div>
             </div>
           </div>

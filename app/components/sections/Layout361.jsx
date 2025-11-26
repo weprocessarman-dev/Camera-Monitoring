@@ -10,7 +10,7 @@ export function Layout361() {
       <div className="container">
         <div className="rb-12 mb-12 md:mb-18 lg:mb-20">
           <div className="mx-auto max-w-lg text-center">
-            <p className="mb-3 font-semibold md:mb-4" style={{color: '#FFCC33'}}>Advantages</p>
+            <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>Advantages</p>
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
               Why businesses choose us
             </h2>
@@ -29,7 +29,7 @@ export function Layout361() {
               />
             </div>
             <div className="p-6 md:p-8 lg:p-12">
-              <p className="mb-2 text-sm font-semibold" style={{color: '#FFCC33'}}>Safety</p>
+              <p className="mb-2 text-sm font-semibold" style={{color: '#facc31'}}>Safety</p>
               <h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl" style={{color: 'white'}}>
                 Your location stays protected every single day
               </h3>
@@ -40,10 +40,10 @@ export function Layout361() {
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
                 <button className="px-3 py-2.5 font-semibold transition-all duration-300 relative group flex items-center gap-2" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
-                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
-                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
-                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
+                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
+                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
+                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
+                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
                   Get Quote <RxChevronRight />
                 </button>
               </div>
@@ -58,7 +58,7 @@ export function Layout361() {
               />
             </div>
             <div className="p-6 md:p-8 lg:p-12">
-              <p className="mb-2 text-sm font-semibold" style={{color: '#FFCC33'}}>Simplicity</p>
+              <p className="mb-2 text-sm font-semibold" style={{color: '#facc31'}}>Simplicity</p>
               <h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl" style={{color: 'white'}}>
                 Setup takes hours and works immediately after
               </h3>
@@ -69,10 +69,10 @@ export function Layout361() {
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
                 <button className="px-3 py-2.5 font-semibold transition-all duration-300 relative group flex items-center gap-2" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
-                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
-                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
-                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
+                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
+                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
+                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
+                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
                   Contact Us <RxChevronRight />
                 </button>
               </div>

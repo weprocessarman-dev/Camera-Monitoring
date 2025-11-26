@@ -9,7 +9,7 @@ export function Team6() {
     <section className="px-[5%] py-16 md:py-24 lg:py-28" style={{backgroundColor: 'black'}}>
       <div className="container">
         <div className="mx-auto mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-          <p className="mb-3 font-semibold md:mb-4" style={{color: '#FFCC33'}}>Team</p>
+          <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>Team</p>
           <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
             Our team
           </h2>
@@ -28,7 +28,7 @@ export function Team6() {
             </div>
             <div className="mb-3 md:mb-4">
               <h5 className="text-md font-semibold md:text-lg" style={{color: 'white'}}>David Torres</h5>
-              <h6 className="md:text-md" style={{color: '#FFCC33'}}>Lead monitor</h6>
+              <h6 className="md:text-md" style={{color: '#facc31'}}>Lead monitor</h6>
             </div>
             <p style={{color: 'white'}}>
               Twelve years in security operations. Knows every angle and every
@@ -36,13 +36,13 @@ export function Team6() {
             </p>
             <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-3.5 self-center">
               <a href="#">
-                <BiLogoLinkedinSquare className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoLinkedinSquare className="size-6" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <FaXTwitter className="size-6 p-0.5" style={{color: '#FFCC33'}} />
+                <FaXTwitter className="size-6 p-0.5" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <BiLogoDribbble className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoDribbble className="size-6" style={{color: '#facc31'}} />
               </a>
             </div>
           </div>
@@ -58,7 +58,7 @@ export function Team6() {
               <h5 className="text-md font-semibold md:text-lg" style={{color: 'white'}}>
                 Elena Vasquez
               </h5>
-              <h6 className="md:text-md" style={{color: '#FFCC33'}}>Senior monitor</h6>
+              <h6 className="md:text-md" style={{color: '#facc31'}}>Senior monitor</h6>
             </div>
             <p style={{color: 'white'}}>
               Trained response specialist with expertise in retail and
@@ -66,13 +66,13 @@ export function Team6() {
             </p>
             <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-3.5 self-center">
               <a href="#">
-                <BiLogoLinkedinSquare className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoLinkedinSquare className="size-6" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <FaXTwitter className="size-6 p-0.5" style={{color: '#FFCC33'}} />
+                <FaXTwitter className="size-6 p-0.5" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <BiLogoDribbble className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoDribbble className="size-6" style={{color: '#facc31'}} />
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@ export function Team6() {
             </div>
             <div className="mb-3 md:mb-4">
               <h5 className="text-md font-semibold md:text-lg" style={{color: 'white'}}>Michael Park</h5>
-              <h6 className="md:text-md" style={{color: '#FFCC33'}}>Monitoring agent</h6>
+              <h6 className="md:text-md" style={{color: '#facc31'}}>Monitoring agent</h6>
             </div>
             <p style={{color: 'white'}}>
               Five years of incident response and real-time threat assessment
@@ -94,13 +94,13 @@ export function Team6() {
             </p>
             <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-3.5 self-center">
               <a href="#">
-                <BiLogoLinkedinSquare className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoLinkedinSquare className="size-6" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <FaXTwitter className="size-6 p-0.5" style={{color: '#FFCC33'}} />
+                <FaXTwitter className="size-6 p-0.5" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <BiLogoDribbble className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoDribbble className="size-6" style={{color: '#facc31'}} />
               </a>
             </div>
           </div>
@@ -116,7 +116,7 @@ export function Team6() {
               <h5 className="text-md font-semibold md:text-lg" style={{color: 'white'}}>
                 Jessica Brown
               </h5>
-              <h6 className="md:text-md" style={{color: '#FFCC33'}}>Monitoring agent</h6>
+              <h6 className="md:text-md" style={{color: '#facc31'}}>Monitoring agent</h6>
             </div>
             <p style={{color: 'white'}}>
               Specializes in warehouse and logistics facility surveillance
@@ -124,13 +124,13 @@ export function Team6() {
             </p>
             <div className="mt-6 grid grid-flow-col grid-cols-[max-content] gap-3.5 self-center">
               <a href="#">
-                <BiLogoLinkedinSquare className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoLinkedinSquare className="size-6" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <FaXTwitter className="size-6 p-0.5" style={{color: '#FFCC33'}} />
+                <FaXTwitter className="size-6 p-0.5" style={{color: '#facc31'}} />
               </a>
               <a href="#">
-                <BiLogoDribbble className="size-6" style={{color: '#FFCC33'}} />
+                <BiLogoDribbble className="size-6" style={{color: '#facc31'}} />
               </a>
             </div>
           </div>
@@ -142,10 +142,10 @@ export function Team6() {
           <p className="md:text-md" style={{color: 'white'}}>Get professional monitoring for your business</p>
           <div className="mt-6 flex items-center justify-center gap-x-4 text-center md:mt-8">
             <button className="px-3 py-2.5 font-semibold transition-all duration-300 relative group" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-              <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
-              <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
-              <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
-              <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
+              <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
+              <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
+              <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
+              <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
               Get Quote
             </button>
           </div>

@@ -4,13 +4,13 @@ import React from "react";
 
 export function Gallery5() {
   return (
-    <section id="relume" className="bg-[#FFCC33] px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="bg-[#4c3c0d] px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
         <div className="mb-12 text-center md:mb-18 lg:mb-20">
-          <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'black'}}>
+          <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
             Our Services
           </h2>
-          <p className="md:text-md" style={{color: 'black'}}>
+          <p className="md:text-md" style={{color: 'white'}}>
             Professional camera monitoring and security solutions
           </p>
         </div>

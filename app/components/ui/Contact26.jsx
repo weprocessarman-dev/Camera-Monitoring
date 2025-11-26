@@ -4,14 +4,14 @@ import React from "react";
 
 export function Contact26() {
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28" style={{backgroundColor: '#FFCC33'}}>
+    <section className="px-[5%] py-16 md:py-24 lg:py-28" style={{backgroundColor: '#4c3c0d'}}>
       <div className="container">
         <div className="rb-12 mx-auto mb-12 flex max-w-lg flex-col justify-center text-center md:mb-18 lg:mb-20">
-          <p className="mb-3 font-semibold md:mb-4" style={{color: 'black'}}>Coverage</p>
-          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'black'}}>
+          <p className="mb-3 font-semibold md:mb-4" style={{color: 'white'}}>Coverage</p>
+          <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
             Nationwide
           </h2>
-          <p className="md:text-md" style={{color: 'black'}}>
+          <p className="md:text-md" style={{color: 'white'}}>
             We monitor businesses across all fifty states
           </p>
         </div>
@@ -24,10 +24,10 @@ export function Contact26() {
                 alt="Denver office"
               />
             </div>
-            <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl" style={{color: 'black'}}>
+            <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl" style={{color: 'white'}}>
               Denver
             </h3>
-            <p className="text-center" style={{color: 'black'}}>
+            <p className="text-center" style={{color: 'white'}}>
               1847 Blake Street, Denver CO 80202 USA
             </p>
             <div className="mt-5 md:mt-6">
@@ -48,10 +48,10 @@ export function Contact26() {
                 alt="Miami office"
               />
             </div>
-            <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl" style={{color: 'black'}}>
+            <h3 className="mb-3 text-2xl font-bold leading-[1.4] md:text-3xl lg:mb-4 lg:text-4xl" style={{color: 'white'}}>
               Miami
             </h3>
-            <p className="text-center" style={{color: 'black'}}>
+            <p className="text-center" style={{color: 'white'}}>
               401 Biscayne Boulevard, Miami FL 33132 USA
             </p>
             <div className="mt-5 md:mt-6">

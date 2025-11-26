@@ -29,13 +29,13 @@ export function Testimonial22() {
   ];
 
   return (
-    <section className="py-20 px-4" style={{backgroundColor: '#FFCC33'}}>
+    <section className="py-20 px-4" style={{backgroundColor: '#4c3c0d'}}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-6xl font-bold mb-4" style={{color: 'black'}}>
+          <h2 className="text-6xl font-bold mb-4" style={{color: 'white'}}>
             Real Stories
           </h2>
-          <p className="text-xl" style={{color: 'black'}}>Businesses trust us</p>
+          <p className="text-xl" style={{color: 'white'}}>Businesses trust us</p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -52,7 +52,7 @@ export function Testimonial22() {
               <div className="relative z-10">
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <svg key={i} className="w-5 h-5" fill="#FFCC33" viewBox="0 0 24 24">
+                    <svg key={i} className="w-5 h-5" fill="#facc31" viewBox="0 0 24 24">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                   ))}

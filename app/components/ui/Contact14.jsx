@@ -8,7 +8,7 @@ export function Contact14() {
     <section className="px-[5%] py-16 md:py-24 lg:py-28" style={{backgroundColor: 'black'}}>
       <div className="container">
         <div className="rb-12 mb-12 max-w-lg md:mb-18 lg:mb-20">
-          <p className="mb-3 font-semibold md:mb-4" style={{color: '#FFCC33'}}>Reach</p>
+          <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>Reach</p>
           <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
             Get in touch
           </h2>
@@ -20,31 +20,31 @@ export function Contact14() {
           <div className="grid auto-cols-fr grid-cols-1 gap-x-4 gap-y-10">
             <div>
               <div className="mb-3 md:mb-4">
-                <BiEnvelope className="size-8" style={{color: '#FFCC33'}} />
+                <BiEnvelope className="size-8" style={{color: '#facc31'}} />
               </div>
               <h3 className="mb-2 text-md font-bold leading-[1.4] md:text-xl" style={{color: 'white'}}>
                 Email
               </h3>
               <p className="mb-2" style={{color: 'white'}}>Send us a message</p>
-              <a className="underline" href="mailto:contact@securemonitor.com" style={{color: '#FFCC33'}}>
+              <a className="underline" href="mailto:contact@securemonitor.com" style={{color: '#facc31'}}>
                 contact@securemonitor.com
               </a>
             </div>
             <div>
               <div className="mb-3 md:mb-4">
-                <BiPhone className="size-8" style={{color: '#FFCC33'}} />
+                <BiPhone className="size-8" style={{color: '#facc31'}} />
               </div>
               <h3 className="mb-2 text-md font-bold leading-[1.4] md:text-xl" style={{color: 'white'}}>
                 Phone
               </h3>
               <p className="mb-2" style={{color: 'white'}}>Call our team directly</p>
-              <a className="underline" href="tel:+18005550147" style={{color: '#FFCC33'}}>
+              <a className="underline" href="tel:+18005550147" style={{color: '#facc31'}}>
                 +1 (800) 555-0147
               </a>
             </div>
             <div>
               <div className="mb-3 md:mb-4">
-                <BiMap className="size-8" style={{color: '#FFCC33'}} />
+                <BiMap className="size-8" style={{color: '#facc31'}} />
               </div>
               <h3 className="mb-2 text-md font-bold leading-[1.4] md:text-xl" style={{color: 'white'}}>
                 Office
@@ -52,10 +52,10 @@ export function Contact14() {
               <p className="mb-2" style={{color: 'white'}}>1234 Sunset Boulevard, Los Angeles CA 90028 USA</p>
               <div className="mt-5 md:mt-6">
                 <button className="px-3 py-2.5 font-semibold transition-all duration-300 relative group" style={{color: 'white'}}>
-                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
-                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
-                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
-                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
+                  <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
+                  <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
+                  <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
+                  <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
                   Get Directions →
                 </button>
               </div>

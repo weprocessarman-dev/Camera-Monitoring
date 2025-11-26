@@ -88,7 +88,7 @@ export function Contact6() {
         <div className="grid grid-cols-1 items-start gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:grid-flow-col lg:gap-x-20 lg:gap-y-16">
         <div>
           <div className="mb-6 md:mb-8">
-            <p className="mb-3 font-semibold md:mb-4" style={{color: '#FFCC33'}}>Inquiry</p>
+            <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>Inquiry</p>
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
               Tell us about your needs
             </h2>
@@ -98,15 +98,15 @@ export function Contact6() {
           </div>
           <div className="grid grid-cols-1 gap-6 py-2">
             <div className="flex items-center gap-4 p-4 bg-gray-900 rounded-lg border border-yellow-400">
-              <BiEnvelope className="size-6 flex-none" style={{color: '#FFCC33'}} />
+              <BiEnvelope className="size-6 flex-none" style={{color: '#facc31'}} />
               <p style={{color: 'white'}}>contact@securemonitor.com</p>
             </div>
             <div className="flex items-center gap-4 p-4 bg-gray-900 rounded-lg border border-yellow-400">
-              <BiPhone className="size-6 flex-none" style={{color: '#FFCC33'}} />
+              <BiPhone className="size-6 flex-none" style={{color: '#facc31'}} />
               <p style={{color: 'white'}}>+1 (800) 555-0147</p>
             </div>
             <div className="flex items-center gap-4 p-4 bg-gray-900 rounded-lg border border-yellow-400">
-              <BiMap className="size-6 flex-none" style={{color: '#FFCC33'}} />
+              <BiMap className="size-6 flex-none" style={{color: '#facc31'}} />
               <p style={{color: 'white'}}>1234 Sunset Boulevard, Los Angeles CA 90028 USA</p>
             </div>
           </div>
@@ -214,10 +214,10 @@ export function Contact6() {
             </div>
           )}
           <button type="submit" disabled={isSubmitting} className="px-3 py-2.5 font-semibold transition-all duration-300 relative group disabled:opacity-50" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-            <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
-            <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
-            <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
-            <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#FFCC33] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
+            <span className="absolute top-0 left-0 w-2 h-2 border-t-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-left-1"></span>
+            <span className="absolute top-0 right-0 w-2 h-2 border-t-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-top-1 group-hover:-right-1"></span>
+            <span className="absolute bottom-0 left-0 w-2 h-2 border-b-2 border-l-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-left-1"></span>
+            <span className="absolute bottom-0 right-0 w-2 h-2 border-b-2 border-r-2 border-[#facc31] transition-all duration-500 group-hover:-bottom-1 group-hover:-right-1"></span>
             {isSubmitting ? 'Sending...' : 'Send Message'}
           </button>
         </form>

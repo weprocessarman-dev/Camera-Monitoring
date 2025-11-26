@@ -5,8 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Camera Monitoring',
+  title: 'WeSurveil - Camera Monitoring',
   description: 'Professional camera monitoring solutions',
+  icons: {
+    icon: '/assets/images/gallery/Favicon.svg',
+  },
 }
 
 export default function RootLayout({
