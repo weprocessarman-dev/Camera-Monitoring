@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Contact Form Submission - WeSurveil</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #000000;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #FFCC33;
+            border-radius: 8px;
+            line-height: 50px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .company-name {
+            color: #FFCC33;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        .title {
+            color: #333333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #FFCC33;
+            padding-bottom: 10px;
+        }
+        .info-section {
+            margin-bottom: 30px;
+        }
+        .info-row {
+            display: flex;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 10px;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #333333;
+            width: 150px;
+            flex-shrink: 0;
+        }
+        .info-value {
+            color: #666666;
+            flex: 1;
+        }
+        .message-section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-left: 4px solid #FFCC33;
+            margin: 20px 0;
+        }
+        .message-title {
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .message-content {
+            color: #666666;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #000000;
+            color: #FFCC33;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .cta-section {
+            background-color: #FFCC33;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta-text {
+            color: #000000;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            color: #999999;
+            font-size: 12px;
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">WS</div>
+            <h1 class="company-name">WeSurveil</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <h2 class="title">🔔 New Contact Form Submission</h2>
+            
+            <!-- Contact Information -->
+            <div class="info-section">
+                <div class="info-row">
+                    <div class="info-label">Name:</div>
+                    <div class="info-value">{{from_name}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Email:</div>
+                    <div class="info-value">{{from_email}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Phone:</div>
+                    <div class="info-value">{{phone}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Service Needed:</div>
+                    <div class="info-value">{{service}}</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Business Type:</div>
+                    <div class="info-value">{{business_type}}</div>
+                </div>
+            </div>
+
+            <!-- Message Section -->
+            <div class="message-section">
+                <div class="message-title">📝 Customer Message:</div>
+                <div class="message-content">{{message}}</div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <div class="cta-text">⚡ Action Required: Follow up within 24 hours</div>
+                <div style="color: #000000; font-size: 14px;">
+                    Reply to: {{from_email}} | Call: {{phone}}
+                </div>
+            </div>
+
+            <!-- Timestamp -->
+            <div class="timestamp">
+                Received: {{timestamp}}
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>WeSurveil - Professional Camera Monitoring Services</div>
+            <div style="margin-top: 10px; font-size: 12px; color: #999999;">
+                This email was automatically generated from your website contact form.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

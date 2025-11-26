@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Inter, sans-serif;
+    background-color: black;
+  }
+}
+
+@layer utilities {
+
+  
+  .text-text-alternative {
+    color: white !important;
+  }
+  
+  .border-border-primary {
+    border-color: white !important;
+  }
+  
+  /* Fix only specific black elements that need to be white */
+  .text-black {
+    color: white !important;
+  }
+  
+  /* Fix hamburger menu lines */
+  .bg-black {
+    background-color: white !important;
+  }
+  
+  /* Fix icons and arrows */
+  svg {
+    color: white !important;
+  }
+  
+  /* Fix decoration colors */
+  .decoration-black {
+    text-decoration-color: white !important;
+  }
+  
+  /* Fix divider lines */
+  .h-px {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+}
