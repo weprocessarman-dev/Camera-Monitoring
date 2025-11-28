@@ -11,11 +11,10 @@ export function Cta53() {
         <div className="relative z-10 flex flex-col items-center p-8 md:p-12 lg:p-16">
           <div className="max-w-lg text-center">
             <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-              Ready to begin
+              Stop The Theft Today.
             </h2>
             <p className="md:text-md" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-              Pick your plan and get monitoring started today. No contracts to
-              sign.
+              Pick a plan that fits your budget and get active protection tonight. No contacts to sign.
             </p>
           </div>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">

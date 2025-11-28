@@ -29,7 +29,7 @@ export function Layout220() {
                 <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl" style={{color: '#facc31'}}>
                   Smart threat detection
                 </h3>
-                <p style={{color: 'white'}}>AI learns your location and catches what matters most</p>
+                <p style={{color: 'white'}}> It ignores the noise and catches the threats that actually matter.</p>
               </div>
               <div>
                 <div className="mb-3 md:mb-4">
@@ -55,7 +55,7 @@ export function Layout220() {
                 <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl" style={{color: '#facc31'}}>
                   Professional verification
                 </h3>
-                <p style={{color: 'white'}}>Trained agents confirm every alert before you respond</p>
+                <p style={{color: 'white'}}>Get the alert the exact second a real threat is detected.</p>
               </div>
               <div>
                 <div className="mb-3 md:mb-4">
@@ -68,7 +68,7 @@ export function Layout220() {
                 <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl" style={{color: '#facc31'}}>
                   Affordable protection
                 </h3>
-                <p style={{color: 'white'}}>Real security that fits any business budget</p>
+                <p style={{color: 'white'}}>Elite security for a fraction of the cost of a physical guard.</p>
               </div>
             </div>
             <div className="mt-6 flex flex-wrap gap-4 md:mt-8 justify-end"> 

@@ -11,7 +11,7 @@ export function Gallery5() {
                         Our Services
                     </h2>
                     <p className="md:text-md" style={{ color: 'white' }}>
-                        Professional camera monitoring and security solutions
+                        Professional Camera Monitoring That Actually Stops Crime
                     </p>
                 </div>
 

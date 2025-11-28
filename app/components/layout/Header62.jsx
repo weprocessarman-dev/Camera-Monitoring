@@ -8,12 +8,12 @@ export function Header62() {
       <div className="w-full h-full relative">
         <div className="relative z-10 flex h-full flex-col items-center justify-center p-8 text-center">
           <div className="w-full max-w-lg">
-            <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>Trusted Security Partner</p>
+            <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>ABOUT US</p>
             <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
-              About Us
+              We Built This For Businesses Like Yours.
             </h1>
             <p className="md:text-md" style={{color: 'white'}}>
-              Leading provider of professional camera monitoring services with years of experience in security solutions.
+              We started 24/7 Secure Monitor for one reason: real security was too expensive. We watched small businesses get priced out of the protection they deserved, and we decided to fix it.
             </p>
           </div>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">

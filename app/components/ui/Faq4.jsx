@@ -19,23 +19,23 @@ export function Faq4() {
   const faqs = [
     {
       question: "Can I change plans anytime?",
-      answer: "Yes. Upgrade or downgrade whenever your needs change. There's no penalty. We bill you the difference on your next invoice. It's that simple."
+      answer: "Yes. You can upgrade or downgrade your coverage instantly as your business needs change."
     },
     {
       question: "What if I need to cancel?",
-      answer: "You can cancel anytime. No contracts. No fees. Just let us know and we'll stop billing you. Your data stays secure until the day you leave."
+      answer: "You walk away. We have no long-term contracts. We operate month-to-month because we believe our service keeps you here, not a piece of paper."
     },
     {
       question: "Do you offer discounts for annual billing?",
-      answer: "We do. Pay yearly and save twenty percent on any plan. That's a real savings for businesses that know they want us long-term."
+      answer: "Yes. If you want to pay for the year upfront, we knock a significant percentage off the total cost."
     },
     {
       question: "What payment methods do you accept?",
-      answer: "We take credit cards, debit cards, and bank transfers. Billing happens automatically each month or year, depending on your choice. You control when and how."
+      answer: "We accept all major credit cards and ACH transfers for business accounts."
     },
     {
       question: "Is there a free trial available?",
-      answer: "Yes. Book a demo and we'll show you exactly how our monitoring works. See the system in action before you commit to anything."
+      answer: "We offer a free demo so you can see exactly how the AI and human monitoring works before you pay a dime."
     }
   ];
 

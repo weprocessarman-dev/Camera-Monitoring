@@ -32,27 +32,27 @@ export function Layout121() {
           <div className="flex flex-col justify-center h-full">
             <p className="mb-3 font-semibold text-[#facc31] md:mb-4">Installation</p>
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
-              We handle setup from start to finish
+              We Handle The Setup. You Handle Your Business.
             </h2>
             <p className="text-lg mb-8" style={{color: 'white'}}>
-              Our certified technicians ensure seamless installation with zero downtime. From site assessment to final testing, we've got you covered.
+              Forget about tangling with wires or reading confusing manuals. We handle the entire installation from A to Z. Our certified pros come in, set it up, and make sure it runs like a Swiss watch. Zero downtime. Zero headaches.
             </p>
             <ul className="flex flex-col space-y-4">
               <li className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#facc31] rounded-full"></div>
-                <span style={{color: 'white'}}>Professional site evaluation</span>
+                <span style={{color: 'white'}}>Installed by Certified Pros.</span>
               </li>
               <li className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#facc31] rounded-full"></div>
-                <span style={{color: 'white'}}>Expert equipment installation</span>
+                <span style={{color: 'white'}}>Zero Interruption to Your Day.</span>
               </li>
               <li className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#facc31] rounded-full"></div>
-                <span style={{color: 'white'}}>Secure network configuration</span>
+                <span style={{color: 'white'}}>Guaranteed, Bulletproof Coverage.</span>
               </li>
               <li className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#facc31] rounded-full"></div>
-                <span style={{color: 'white'}}>Complete system testing</span>
+                <span style={{color: 'white'}}>Done-for-You, Start to Finish.</span>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ export function Layout121() {
                   Site Assessment
                 </h6>
                 <p style={{color: 'white'}}>
-                  Professional evaluation of your property to determine optimal camera placement and coverage areas for maximum security.
+                  We inspect your property inch-by-inch to find the hiding spots criminals love, then we figure out exactly where to put cameras to eliminate them.
                 </p>
               </div>
             </div>
@@ -92,7 +92,7 @@ export function Layout121() {
                   Equipment Installation
                 </h6>
                 <p style={{color: 'white'}}>
-                  High-quality cameras and monitoring equipment installed by certified technicians with minimal disruption to your operations.
+                  We use high-end gear installed by technicians who know what they are doing. We work fast, we don't make a mess, and we don't interrupt your daily operations.
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ export function Layout121() {
                   Network Configuration
                 </h6>
                 <p style={{color: 'white'}}>
-                  Secure network setup and configuration ensuring reliable connectivity and encrypted data transmission for your monitoring system.
+                  A camera is useless if the connection drops. We set up a secure, encrypted network that never sleeps. It’s rock-solid and safe from prying eyes.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ export function Layout121() {
                   System Testing
                 </h6>
                 <p style={{color: 'white'}}>
-                  Comprehensive testing and quality assurance to ensure your monitoring system is fully operational and meets all requirements.
+                  We don't leave until everything is perfect. We test every angle and every signal to ensure that when a threat appears, your system catches it.
                 </p>
               </div>
             </div>

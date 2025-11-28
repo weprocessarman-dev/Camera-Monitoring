@@ -14,10 +14,10 @@ export function Layout419() {
               <div className="mx-[5%] max-w-md md:ml-[5vw] md:mr-12 lg:mr-20">
                 <p className="mb-3 font-semibold md:mb-4" style={{color: '#facc31'}}>24/7 Monitoring</p>
                 <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl" style={{color: 'white'}}>
-                  Advanced security solutions for your peace of mind
+                  We Watch. You Sleep.
                 </h2>
                 <p className="md:text-md" style={{color: 'white'}}>
-                  Professional monitoring services with AI-powered threat detection, instant alerts, and dedicated security agents ensuring your property is protected around the clock.
+                  This is real protection. We combine smart tech with live agents to guard your business day and night.
                 </p>
                 <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
                   <a href="/contact-us" className="px-3 py-2.5 font-semibold transition-all duration-300 relative group" style={{color: 'white', textShadow: '0 0 10px rgba(255,255,255,0.8)'}}>
@@ -46,7 +46,7 @@ export function Layout419() {
                 Real-time Monitoring
               </h3>
               <p style={{color: 'white'}}>
-                Advanced AI algorithms continuously monitor your property, detecting unusual activities and potential threats in real-time with 99.9% accuracy.
+                The system never blinks. It spots trouble instantly with 99.9% accuracy.
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export function Layout419() {
                 Instant Alerts
               </h3>
               <p style={{color: 'white'}}>
-                Receive immediate notifications via SMS, email, or mobile app when suspicious activity is detected, ensuring you're always informed.
+                Get a text or email the second something happens. You are always in the loop.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export function Layout419() {
                 Expert Verification
               </h3>
               <p style={{color: 'white'}}>
-                Trained security professionals verify every alert before contacting you, reducing false alarms and ensuring genuine threats are prioritized.
+                A real person checks every alarm. We filter out the false stuff so you don't panic for no reason.
               </p>
             </div>
           </div>

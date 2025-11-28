@@ -6,24 +6,24 @@ import { RxStar } from "react-icons/rx";
 export function Testimonial22() {
   const testimonials = [
     {
-      quote: "We installed their system last year and haven't had a single incident go unnoticed. The alerts reach us instantly and the team knows exactly what they're looking at.",
+      quote: "Finally, no more false alarms. We used to get woken up every night by wind triggering our old alarm. These guys filter all that out. Now, if my phone rings, I know it's real. The peace of mind is worth every cent.",
       name: "Marcus Chen",
-      role: "Manager, retail store",
+      role: "Retail Manager",
       avatar: "/assets/images/icons/user1.jpg",
       rating: 5
     },
     {
-      quote: "Setup took one afternoon and we've been running smooth ever since. No complicated training, no hidden fees. Just solid protection that works.",
-      name: "Sarah Williams",
-      role: "Owner, restaurant",
-      avatar: "/assets/images/icons/user2.jpg",
+      quote: "They stopped a break-in last week. The monitoring team caught a guy trying to pry open our back door. They yelled at him through the speaker, and he bolted before he even got in. The system paid for itself in ten seconds.",
+      name: "James Rodriguez",
+      role: "Warehouse Director",
+      avatar: "/assets/images/icons/user3.jpg",
       rating: 5
     },
     {
-      quote: "Their monitoring team caught a break-in attempt before it happened. The response was immediate and professional. Worth every penny.",
-      name: "James Rodriguez",
-      role: "Director, warehouse",
-      avatar: "/assets/images/icons/user3.jpg",
+      quote: "Setup was actually easy. I dreaded the installation, but they came in, set it up one afternoon, and were gone. No hidden fees, no training needed. Just solid protection.",
+      name: "Sarah Williams",
+      role: "Restaurant Owner",
+      avatar: "/assets/images/icons/user2.jpg",
       rating: 5
     }
   ];

@@ -10,12 +10,10 @@ export function Header98() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center p-8 text-center">
           <div className="w-full max-w-lg">
             <h1 className="mb-5 text-6xl font-bold text-text-alternative md:mb-6 md:text-9xl lg:text-10xl">
-              Affordable 24/7 camera monitoring nationwide
+              The Most Affordable 24/7 Camera Monitoring Nationwide.
             </h1>
             <p className="text-text-alternative md:text-md">
-              Real-time surveillance with AI-powered threat detection and
-              dedicated human monitoring agents. No long-term contracts, easy
-              setup, and coverage across all USA states.
+              Proactive surveillance using AI detection and live human agents at a fraction of the cost. No contracts, easy setup, and nationwide coverage.
             </p>
           </div>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
