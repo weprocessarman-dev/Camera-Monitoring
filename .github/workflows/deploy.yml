@@ -27,9 +27,8 @@ jobs:
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp.shahirooms.com
-        username: Deploy@shahirooms.com
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./out/
-        server-dir: /wesurveil.com/
-        port: 21
+        server-dir: ${{ secrets.FTP_DIR }}
