@@ -24,12 +24,11 @@ jobs:
     - name: Build and export project
       run: npm run build
 
-    - name: Deploy to Namecheap via SFTP
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+    - name: Deploy via FTP
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        server: shahirooms.com
-        username: ${{ secrets.FTP_USERNAME }}
+        host: ${{ secrets.FTP_HOST }}
+        user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local_path: './out/*'
-        remote_path: '/public_html/'
-        sftpArgs: '-o ConnectTimeout=5'
+        localDir: "out"
+        remoteDir: "/public_html"
