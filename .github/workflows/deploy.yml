@@ -21,11 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build project
+    - name: Build and export project
       run: npm run build
-
-    - name: Export static files
-      run: npx next export
 
     - name: Deploy to Namecheap via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
