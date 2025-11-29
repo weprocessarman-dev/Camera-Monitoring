@@ -31,5 +31,5 @@ jobs:
         username: Deploy@shahirooms.com
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./out/
-        server-dir: /public_html/
+        server-dir: /wesurveil.com/
         port: 21
