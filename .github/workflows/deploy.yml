@@ -27,8 +27,8 @@ jobs:
     - name: Deploy to Namecheap via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ${{ secrets.FTP_HOST }}
+        server: ftp.shahirooms.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./out/
-        server-dir: /home/shahanca/public_html/
+        server-dir: /public_html/
