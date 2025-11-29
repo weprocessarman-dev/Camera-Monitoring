@@ -21,14 +21,15 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build and export project
+    - name: Build project
       run: npm run build
 
     - name: Deploy via FTP
-      uses: sebastianpopp/ftp-action@releases/v2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        host: ${{ secrets.FTP_HOST }}
-        user: ${{ secrets.FTP_USERNAME }}
+        server: ftp.shahirooms.com
+        username: Deploy@shahirooms.com
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "out"
-        remoteDir: "/public_html"
+        local-dir: ./out/
+        server-dir: /public_html/
+        port: 21
